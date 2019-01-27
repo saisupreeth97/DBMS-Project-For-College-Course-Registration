@@ -1,0 +1,423 @@
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*MY CODE*/
+
+.main-wrapper{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.backimg{
+    background: url('laptop-1246672.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ccc;
+    background-position: center bottom;
+    background-attachment: fixed;
+}
+
+a{
+    text-decoration: none;
+}
+
+header nav{
+    width: 100%;
+    height: 70px;
+    background-color: #2C3E44;
+}
+
+header nav ul{
+    float: left;
+}
+
+header nav ul li{
+    float: left;
+    list-style: none;
+}
+
+header nav ul li a{
+    font-family: arial;
+    font-size: 16px;
+    color: #111;
+    line-height: 63px;
+}
+
+header .nav-login{
+    float: right;
+}
+
+header .nav-login form{
+    float: left;
+    padding-top: 15px;
+}
+
+
+header .nav-login form input{
+    float: left;
+    width: 140px;
+    height: 30px;
+    padding: 0px 10px;
+    margin-right: 10px;
+    border:none;
+    background-color: #fff;
+    font-family: arial;
+    font-size: 14px;
+    color: #111;
+    line-height: 30px;
+}
+
+header .nav-login form button{
+    float: left;
+    width: 60px;
+    height: 30px;
+    margin-right: 10px;
+    border:none;
+    background-color: #f3f3f3;
+    font-family: arial;
+    font-size: 14px;
+    color: #111;
+    cursor: pointer;
+}
+
+header .nav-login form button:hover{
+    background-color: #ccc;
+    color: red;
+   }
+
+header .nav-login a{
+    display: block;
+    height: 0px;
+    border:none;
+    float: left;
+    background-color: #fff;
+    font-family: arial;
+    font-size: 16px;
+    color: white;
+    line-height: 63px;
+    cursor: pointer; 
+}
+
+header .nav-login a:hover{
+    color: #ccc;
+}
+
+.main-container{
+    padding-top: 40px;
+}
+
+.main-container h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #fff;
+    font-family: Calibri,sans-serif;
+    line-height: 50px;
+    text-align: center;
+}
+
+/*signup.php*/
+
+.signup-form {
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.signup-form input{
+    width: 90%;
+    height: 40px;
+    padding: 0px 5%;
+    margin-bottom: 10px;
+    border:none;
+    background-color: #fff;
+    font-family: arial;
+    font-size: 16px;
+    color: #111;
+    line-height: 40px;
+    border-radius: 5px;
+}
+
+.signup-form input:hover{
+    background-color: #ccc;
+}
+
+.signup-form  button{
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: 40px;
+    border:none;
+    background-color: #2B3F44;
+    font-family: arial;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.signup-form button:hover{
+    background-color: #fff;
+    color: black;
+}
+
+
+footer{
+    position:absolute;
+   bottom:0;
+   width:100%;
+   height:35px;
+   background:#2B3F44;
+   clear: both;
+}
+
+#copy{
+    float: right;
+    color: #fff;
+    font-family: sans-serif;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+/*Admin Page*/
+
+.atable
+{
+    margin-top: 40px;
+}
+
+.atable table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.atable th, td, tr {
+    border: 1px solid black;
+    text-align: left;
+    padding: 10px;
+}
+
+.atable tr:nth-child(even){background-color: #f2f2f2}
+
+.atable tr{
+    text-align: left;
+}
+
+.atable th {
+    text-align: center;
+    background-color: grey;
+    color: white;
+    font-family: arial;
+}
+
+.sbform {
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 30px;
+    margin-top: 20px;
+}
+
+.sbform input{
+    width: 90%;
+    height: 40px;
+    padding: 0px 5%;
+    margin-bottom: 10px;
+    border:1px solid black;
+    background-color: #fff;
+    font-family: arial;
+    font-size: 16px;
+    color: black;
+    line-height: 40px;
+    border-radius: 2px;
+}
+
+.sbform p
+{
+    font-size: 25px;
+}
+
+.sbform select
+{
+    width: 100px;
+    height: 40px;
+}
+
+.sbform input:hover{
+    background-color: #ccc;
+}
+
+.sbform  button{
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: 40px;
+    border:none;
+    background-color: orange;
+    font-family: arial;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.sbform button:hover{
+    color: black;
+}
+
+.button-adm
+{
+    margin-top: 10px;
+    margin-left: 280px;
+}
+
+.button-adm div
+{
+    float: left;
+}
+
+.button-adm button
+{
+    display: inline-grid;
+    width: 20%;
+    height: 40px;
+    font-family: arial;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color: #2187CB;
+    color: #fff;
+}
+
+.button-lgn
+{
+    margin-left: 280px;
+}
+
+
+.button-lgn button
+{
+    display: inline;
+    width: 15%;
+    height: 40px;
+    font-family: arial;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color: green;
+    color: #fff;
+}
+
+.sbform1  {
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+    height: 40px;
+    border:none;
+    background-color: orange;
+    font-family: arial;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.sbform1 :hover{
+    color: black;
+}
+
+
